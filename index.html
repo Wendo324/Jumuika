@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Out and About</title>
+    <script src="stuff.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Jua">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Valera Round">
+
+    
+
+
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>OUT & ABOUT</h1>
+        <p class = "desc">find disability and inclusive services for YOU</p> 
+      </div>
+    <div class = "remainder">
+        <form id = "form">
+        
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                      <h3> HEALTHCARE SERVICES </h3>
+                      <div class = "input">
+                        <input type="checkbox" id="clinics" name="services" value="clinics">
+                          <label for="clinics">Clinics</label>
+                         
+      
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="therapy" name="services" value="therapy">
+                          <label for="therapy">Therapy</label>
+                          
+      
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="psychiatry" name="services" value="Psychiatry">
+                          <label for="psychiatry">Psychiatry</label>
+                          
+      
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="gender-affirming-care" name="services" value="gender-affirming-care">
+                          <label for="gender-affirming-care">Gender Affirming Care</label>
+                          
+                      </div>
+                      
+                      
+                      <h3> OTHER RESOURCES </h3>
+                      <div class = "input">
+                        <input type="checkbox" id="legal-and-advocacy-resources" name="services" value="legal-and-advocacy-resources">
+                          <label for="legal-and-advocacy-resources">Legal and Advocacy Resources</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+      
+                        <input type="checkbox" id="recreational-safe-spaces" name="services" value="recreational-safe-spaces">
+                      <label for="recreational-safe-spaces">Recreational Safe Spaces</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+      
+      
+                        <input type="checkbox" id="home-health-services" name="services" value="home-health-services">
+                      <label for="home-health-services">Home Health Services</label>
+                      
+                          
+                      </div>
+                      
+      
+                </div>
+                <div class="col-sm-4">
+                  <h3> ACCESSIBILITY SERVICES </h3>
+                  <div class = "input">
+                    <input type="checkbox" id="single-occupant-bathrooms" name="services" value="single-occupant-bathrooms">
+                      <label for="single-occupant-bathrooms">Gender Inclusive Bathrooms</label>
+                  
+                          
+                  </div>
+                  <div class = "input">
+                    <input type="checkbox" id="family-bathrooms" name="services" value="family-bathrooms">
+                      <label for="family-bathrooms">ADA Compliant Family Bathrooms</label>
+                  
+                          
+                  </div>
+                  <div class = "input">
+                    <input type="checkbox" id="wheelchair-accessibility" name="services" value="wheelchair-accessibility">
+                      <label for="wheelchair-accessibility">Wheelchair Accessibility</label>
+                  
+                          
+                  </div>
+                  <div class = "input">
+                    <input type="checkbox" id="single-occupant-bathrooms" name="services" value="single-occupant-bathrooms">
+                      <label for="single-occupant-bathrooms">Accessible Parking</label>
+                  
+                          
+                  </div>
+                  <div class = "input">
+                    <input type="checkbox" id="family-bathrooms" name="services" value="family-bathrooms">
+                      <label for="family-bathrooms">Sensory-Friendly Environments</label>
+                  
+                          
+                  </div>
+                  <div class = "input">
+                    <input type="checkbox" id="wheelchair-accessibility" name="services" value="wheelchair-accessibility">
+                      <label for="wheelchair-accessibility">Service Animal Accomodations</label>
+                  
+                          
+                  </div>
+                  
+      
+                  <div class="small">
+                    <label for="cars">Location: </label>
+                    <select name="cars" id="cars">
+                      <option value="atlanta">Metro-Atlanta</option>
+                    </select>
+                    <br>
+                    <button type="button" class="cute-button" onclick="myFunction()" id="button">Submit</button>
+                  </div>                  
+                  
+                  
+                </div>
+                <div class="col-sm-4">
+                      <h3> COMMUNITY AND SUPPORT CENTERS </h3>
+                      <div class = "input">
+                        <input type="checkbox" id="lgbtqia-centers" name="services" value="lgbtqia-centers">
+                          <label for="lgbtqia-centers">LGBTQIA+ Community Centers</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="lgbtqia-family-planning" name="services" value="lgbtqia-family-planning">
+                          <label for="lgbtqia-family-planning">LGBTQIA+ Family Planning</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="lgbtqia-youth-services" name="services" value="lgbtqia-youth-services">
+                          <label for="lgbtqia-youth-services">LGBTQIA+ Youth Services</label>
+                      
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="mental-health-support-groups" name="services" value="mental-health-support-groups">
+                          <label for="mental-health-support-groups">Mental Health Support Groups</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="single-occupant-bathrooms" name="services" value="single-occupant-bathrooms">
+                          <label for="single-occupant-bathrooms">Single Occupant/Gender Inclusive Bathrooms</label>
+                      
+                          
+                      </div>
+                      
+      
+                      
+      
+                      <h3> COMMUNICATION/INFO ACCESS </h3>
+                      <div class = "input">
+                        <input type="checkbox" id="sign-language-interpreters" name="services" value="sign-language-interpreters">
+                          <label for="sign-language-interpreters">Sign Language Interpreters</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+                        <input type="checkbox" id="braille-and-large-print" name="services" value="braille-and-large-print">
+                          <label for="braille-and-large-print">Braille and Large Print Materials</label>
+                      
+                          
+                      </div>
+                      <div class = "input">
+      
+                        <input type="checkbox" id="communication-assistance" name="services" value="communication-assistance">
+                      <label for="communication-assistance">Communication Assistance</label>
+                      
+                          
+                      </div>
+                      
+      
+                      
+      
+                </div>
+              </div>
+            </div>
+          
+      
+              
+          </form>
+      
+          <div class = "col-sm-5">
+            <iframe id = "1" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.4116281905817!2d-84.2957439241605!3d33.77586697326215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzMzLjEiTiA4NMKwMTcnMzUuNCJX!5e0!3m2!1sen!2sus!4v1697347231365!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "2" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1655.207905368415!2d-84.36039311752343!3d33.93043199452291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU1JzQ5LjYiTiA4NMKwMjEnMzMuMiJX!5e0!3m2!1sen!2sus!4v1697347137787!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "3" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1200.0711493940664!2d-84.38751195037054!3d33.75378331344764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ1JzEzLjUiTiA4NMKwMjMnMTAuOCJX!5e0!3m2!1sen!2sus!4v1697347067076!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "4" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d531.3608110721584!2d-84.33916158641844!3d33.922603941871515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU1JzIxLjQiTiA4NMKwMjAnMTguNyJX!5e0!3m2!1sen!2sus!4v1697347270588!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "5" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3319.0457922125447!2d-84.39879592416325!3d33.70776397328874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQyJzI4LjAiTiA4NMKwMjMnNDYuNCJX!5e0!3m2!1sen!2sus!4v1697347299005!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "6" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3319.0457922125447!2d-84.39879592416325!3d33.70776397328874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQyJzI4LjAiTiA4NMKwMjMnNDYuNCJX!5e0!3m2!1sen!2sus!4v1697347299005!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "7" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.5816869704954!2d-84.29372792416066!3d33.77147397326402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzE3LjMiTiA4NMKwMTcnMjguMiJX!5e0!3m2!1sen!2sus!4v1697347353222!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "8" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3308.0600238400466!2d-84.35287492415172!3d33.990991973180016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU5JzI3LjYiTiA4NMKwMjEnMDEuMSJX!5e0!3m2!1sen!2sus!4v1697347396770!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "9" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3317.4503353615573!2d-84.30425892416157!3d33.74902697327268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ0JzU2LjUiTiA4NMKwMTgnMDYuMSJX!5e0!3m2!1sen!2sus!4v1697347418608!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "10" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3317.4503353615573!2d-84.30425892416157!3d33.74902697327268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ0JzU2LjUiTiA4NMKwMTgnMDYuMSJX!5e0!3m2!1sen!2sus!4v1697347453607!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "11" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1934.7519962785677!2d-84.29874673590625!3d33.773952275509686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzI2LjEiTiA4NMKwMTcnNTAuMSJX!5e0!3m2!1sen!2sus!4v1697347487906!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "12" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1905.853331381938!2d-84.55861162431816!3d33.92260208552231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU1JzIyLjIiTiA4NMKwMzMnMjcuNiJX!5e0!3m2!1sen!2sus!4v1697347522341!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "13" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.1033203396205!2d-84.38327392416015!3d33.783829973259195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ3JzAxLjgiTiA4NMKwMjInNTAuNSJX!5e0!3m2!1sen!2sus!4v1697347546256!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "14" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1069.1402563529882!2d-84.38424629534829!3d33.83238745324969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ5JzU2LjkiTiA4NMKwMjMnMDAuOCJX!5e0!3m2!1sen!2sus!4v1697347579924!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "15" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3312.77853440829!2d-84.33706192415669!3d33.86959797322623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDUyJzEwLjYiTiA4NMKwMjAnMDQuMiJX!5e0!3m2!1sen!2sus!4v1697347603076!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "16" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3320.1374876802615!2d-84.4839199241644!3d33.679503973299724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQwJzQ2LjIiTiA4NMKwMjgnNTIuOCJX!5e0!3m2!1sen!2sus!4v1697347623064!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "17" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3310.4540975674063!2d-84.38453592415416!3d33.92944697320352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU1JzQ2LjAiTiA4NMKwMjInNTUuMSJX!5e0!3m2!1sen!2sus!4v1697347665946!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "18" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3309.5729219901705!2d-84.55257192415326!3d33.95211097319493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU3JzA3LjYiTiA4NMKwMzInNjAuMCJX!5e0!3m2!1sen!2sus!4v1697347797800!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "19" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3309.5729219901755!2d-84.54257192415328!3d33.9521109731948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDU3JzA3LjYiTiA4NMKwMzInMjQuMCJX!5e0!3m2!1sen!2sus!4v1697347716895!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "20" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3317.45137989423!2d-84.39057492416161!3d33.748999973272674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ0JzU2LjQiTiA4NMKwMjMnMTYuOCJX!5e0!3m2!1sen!2sus!4v1697347944922!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "21" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3317.2192434149756!2d-84.39257492416127!3d33.75499997327035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ1JzE4LjAiTiA4NMKwMjMnMjQuMCJX!5e0!3m2!1sen!2sus!4v1697347984525!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "22" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.619389144761!2d-84.3672749241607!3d33.770499973264414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzEzLjgiTiA4NMKwMjEnNTIuOSJX!5e0!3m2!1sen!2sus!4v1697348034135!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "23" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.24387299078!2d-84.40507492416032!3d33.78019997326062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzQ4LjciTiA4NMKwMjQnMDkuMCJX!5e0!3m2!1sen!2sus!4v1697348082615!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "24" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.3948651382884!2d-84.36997492416042!3d33.77629997326215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzM0LjciTiA4NMKwMjInMDIuNiJX!5e0!3m2!1sen!2sus!4v1697348107676!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "25" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3316.7277678805667!2d-84.40117492416083!3d33.76769997326553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzAzLjciTiA4NMKwMjMnNTUuMCJX!5e0!3m2!1sen!2sus!4v1697348161190!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "26" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3318.897543703182!2d-84.42707492416311!3d33.71159997328706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQyJzQxLjgiTiA4NMKwMjUnMjguMiJX!5e0!3m2!1sen!2sus!4v1697348194728!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "27" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3318.2055721897677!2d-84.37187492416238!3d33.72949997328018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQzJzQ2LjIiTiA4NMKwMjInMDkuNSJX!5e0!3m2!1sen!2sus!4v1697348225060!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+            <iframe id = "28" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3315.345345754673!2d-84.39887492415936!3d33.80339997325167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ4JzEyLjIiTiA4NMKwMjMnNDYuNyJX!5e0!3m2!1sen!2sus!4v1697348250254!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class = "display"></iframe>
+
+          </div>
+          <div class = "col-sm-7">
+                <h1 class = "text" id = "1-title">Arts and Humanities, Atlanta, GA 30303</h1>
+                <h1 class = "text" id = "2-title">Perimeter Center, Sandy Springs, GA</h1>
+                <h1 class = "text" id = "3-title">250 E Ponce de Leon Ave, Decatur, GA 30030</h1>
+                <h1 class = "text" id = "4-title">Ashford Dunwoody Rd, Dunwoody, GA 30346</h1>
+                <h1 class = "text" id = "5-title">Atlanta, GA 30315</h1>
+                <h1 class = "text" id = "6-title">Atlanta, GA 30315</h1>
+                <h1 class = "text" id = "7-title">3028 Clairmont Rd, Atlanta, GA 30329</h1>
+                <h1 class = "text" id = "8-title">Parking lot, Avery Glen, Decatur, GA 30030</h1>
+                <h1 class = "text" id = "9-title">8611 Roswell Rd, Sandy Springs, GA 30350</h1>
+                <h1 class = "text" id = "10-title">115 E Lake Dr NE, Atlanta, GA 30317</h1>
+                <h1 class = "text" id = "11-title">207 Peachtree St, Atlanta, GA 30303</h1>
+                <h1 class = "text" id = "12-title">556 N McDonough St, Decatur, GA 30030</h1>
+                <h1 class = "text" id = "13-title">Marietta, GA</h1>
+                <h1 class = "text" id = "14-title">199 12th St NE, Atlanta, GA 30309</h1>
+                <h1 class = "text" id = "15-title">Buckhead, Atlanta, GA 30305</h1>
+                <h1 class = "text" id = "16-title">Town Blvd, Atlanta, GA 30319</h1>
+                <h1 class = "text" id = "17-title">2795 Kingston Terrace, East Point, GA 30344</h1>
+                <h1 class = "text" id = "18-title">154 Cromwell Rd NE, Atlanta, GA 30328</h1>
+                <h1 class = "text" id = "19-title">30 S Park Square NE, Marietta, GA 30060</h1>
+                <h1 class = "text" id = "20-title">500 Washington Ave NE, Marietta, GA 30060</h1>
+                <h1 class = "text" id = "21-title">Georgia State Capitol, Atlanta, GA 30334</h1>
+                <h1 class = "text" id = "22-title">College of Business, 35 Broad St NW, Atlanta, GA 30303</h1>
+                <h1 class = "text" id = "23-title">695 North Avenue NE, Atlanta, GA 30308</h1>
+                <h1 class = "text" id = "24-title">939 Hemphill Ave NW, Atlanta, GA 30332</h1>
+                <h1 class = "text" id = "25-title">650 Ponce De Leon Ave NE, Atlanta, GA 30308</h1>
+                <h1 class = "text" id = "26-title">Atlanta, GA</h1>
+                <h1 class = "text" id = "27-title">1590 Evans Dr SW, Atlanta, GA 30310</h1>
+                <h1 class = "text" id = "28-title">104 Ardmore Pl NW, Atlanta, GA 30309</h1>
+            
+              
+
+          </div>
+          <div class = "container">
+      
+          </div>
+          
+          
+          
+
+      
+    </div>
+    
+      
+
+
+    
+</body>
+</html>
+

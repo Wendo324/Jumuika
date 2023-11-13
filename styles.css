@@ -1,0 +1,98 @@
+* {
+    font-family: 'Jua';
+}
+
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.jumbotron{
+    background-color: #DBAEFF;
+    color: #c8fde4;
+    margin-bottom: 0px;
+}
+
+.desc {
+    color: #5B00A4;
+}
+
+    .input {
+        font-family: 'Valera-Round';
+        background-color: #FFFFFF;
+        border: black;
+        margin-bottom: 5px;
+        padding-left: 5px;
+        box-shadow: -3px 3px 5px #D8A7FF; /* 3px to the right and 3px down, shadow color D8A7FF */
+        margin-bottom: 10px;
+        
+    }
+
+.display {
+    display: none;
+}
+
+.remainder {
+    background-color: #C6FFE3;
+    height: 600px;
+}
+.text {
+    display: none;
+    margin-left: 15px;
+}
+
+.small {
+    text-align: center;
+}
+
+
+.input input[type="checkbox"] {
+    box-shadow: -2px 2px 2px #D8A7FF; /* shadow color D8A7FF */
+    
+}
+
+h3 {
+    color: #7700d8; /* Set the text color to purple using the specified hex color code */
+}
+
+.cute-button {
+    background-color: #ca88ff;
+    border: 2px solid #0000006a;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50px; /* To make it round */
+    cursor: pointer;
+  }
+
+  /* Add hover effect to make it look even cuter */
+  .cute-button:hover {
+    background-color: #a961fc;
+  }
+
+
+  #cars {
+    padding: 5px; /* Increase padding around the dropdown */
+    font-size: 16px; /* Increase font size of the dropdown menu */
+    border-radius: 50px;
+    margin-top: 10px; /* Increase the margin above the dropdown */
+    border: 2px solid #0000006a;
+  }
+
+  /* CSS for the "Location" label */
+  label[for="cars"] {
+    font-size: 16px; /* Increase font size of the label */
+    margin-bottom: 15px; /* Increase the margin below the label */
+  }
+
+
+  select[name="cars"] {
+    margin-bottom: 15px; /* Increase the margin (adjust as needed) */
+  }
+
+
+  .jumbotron h1 {
+    color: #c8fde4;
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
+}

@@ -9,13 +9,13 @@ html, body {
 }
 
 .jumbotron{
-    background-color: #DBAEFF;
-    color: #c8fde4;
+    background-color: #da0f0f;
+    color: #e383db;
     margin-bottom: 0px;
 }
 
 .desc {
-    color: #5B00A4;
+    color: #dd0fda;
 }
 
     .input {
